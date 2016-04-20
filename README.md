@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # worldweatheronline-api
 [![NPM version](https://badge.fury.io/js/snapdeal-affiliate-client.svg)](https://www.npmjs.com/package/snapdeal-affiliate-client) 
 [![Build Status](https://travis-ci.org/nigharsh/snapdeal-affiliate-client.svg?branch=master)](https://travis-ci.org/nigharsh/snapdeal-affiliate-client)
@@ -21,8 +20,7 @@ var wwo = require('worldweatheronline-api');
 Create client
 ```javascript
 var client = WWO.createClient({
-  // key: process.env.key,
-  key: '<YOUR-KEY>',
+  key: process.env.key,
   responseType: 'json'
 });
 ```
@@ -46,4 +44,3 @@ client.localWeatherApi({
     if(err) throw err;
 });
 ```
-
