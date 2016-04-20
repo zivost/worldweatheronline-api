@@ -2,7 +2,7 @@
     "name": "worldweatheronline-api",
     "version": "1.0.0",
     "description": "Unofficial WorldWeatherOnline's API Client",
-    "main": "lib/index.js",
+    "main": "index.js",
     "scripts": {
         "test": "mocha"
     },
