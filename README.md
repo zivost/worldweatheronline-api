@@ -16,7 +16,7 @@ var wwo = require('worldweatheronline-api');
 Create client
 ```javascript
 var client = WWO.createClient({
-  key: process.env.key,
+  key: process.env.wwo-key,
   responseType: 'json'
 });
 ```
