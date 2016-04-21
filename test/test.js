@@ -20,7 +20,7 @@ describe('API requests', function() {
     });
     describe('localWeatherApi', function() {
         it('response should not return an error', function(done) {
-            this.timeout(30000);
+            this.timeout(60000);
             client.localWeatherApi({
                 q: "London",
                 num_of_days: "1"
@@ -32,7 +32,7 @@ describe('API requests', function() {
     });
     describe('timeZoneApi', function() {
         it('response should not return an error', function(done) {
-            this.timeout(30000);
+            this.timeout(60000);
             client.timeZoneApi({
                 q: "208021"
             }, function(err, result) {
@@ -43,7 +43,7 @@ describe('API requests', function() {
     });
     describe('skiWeatherApi', function() {
         it('response should not return an error', function(done) {
-            this.timeout(30000);
+            this.timeout(60000);
             client.skiWeatherApi({
                 q: "London",
                 num_of_days: "2"
@@ -55,7 +55,7 @@ describe('API requests', function() {
     });
     describe('marineWeatherApi', function() {
         it('response should not return an error', function(done) {
-            this.timeout(30000);
+            this.timeout(60000);
             client.marineWeatherApi({
                 q: "48.834,2.394"
             }, function(err, result) {
@@ -66,7 +66,7 @@ describe('API requests', function() {
     });
     describe('historicalWeatherApi', function() {
         it('response should not return an error', function(done) {
-            this.timeout(30000);
+            this.timeout(60000);
             client.historicalWeatherApi({
                 q: "London",
                 date: "1995-05-02"
