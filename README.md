@@ -6,7 +6,7 @@
 
 [![NPM](https://nodei.co/npm/worldweatheronline-api.png)](https://nodei.co/npm/worldweatheronline-api/)
 
-un-official client for [WorldWeatherOnline's APIs](http://developer.worldweatheronline.com/api/)
+un-official client for [WorldWeatherOnline's Weather,Local Weather,Time Zone, Marine, Ski and Historical Weather APIs](http://developer.worldweatheronline.com/api/)
 
 ## Installation
 Install using npm:
