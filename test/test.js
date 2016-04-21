@@ -14,7 +14,7 @@ describe('API requests', function() {
                 q: "Delhi"
             }, function(err, result) {
                 if (err) throw err;
-                done();
+                if (result) done();
             });
         });
     });
@@ -26,7 +26,7 @@ describe('API requests', function() {
                 num_of_days: "1"
             }, function(err, result) {
                 if (err) throw err;
-                done();
+                if (result) done();
             });
         });
     });
@@ -37,7 +37,7 @@ describe('API requests', function() {
                 q: "208021"
             }, function(err, result) {
                 if (err) throw err;
-                done();
+                if (result) done();
             });
         });
     });
@@ -49,7 +49,7 @@ describe('API requests', function() {
                 num_of_days: "2"
             }, function(err, result) {
                 if (err) throw err;
-                done();
+                if (result) done();
             });
         });
     });
@@ -60,7 +60,7 @@ describe('API requests', function() {
                 q: "48.834,2.394"
             }, function(err, result) {
                 if (err) throw err;
-                done();
+                if (result) done();
             });
         });
     });
@@ -72,7 +72,7 @@ describe('API requests', function() {
                 date: "1995-05-02"
             }, function(err, result) {
                 if (err) throw err;
-                done();
+                if (result) done();
             });
         });
     });

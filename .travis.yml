@@ -1,4 +1,15 @@
 language: node_js
+
 node_js:
-  - "4.2.2"
-  - "4.1"
+  - node
+  - 0.12
+  - 0.10
+  - 4.2
+  - 4.1
+  - 5.0
+
+after_script:
+  - npm run test
+  - istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage
+
+sudo: false
