@@ -1,6 +1,6 @@
 {
   "name": "worldweatheronline-api",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Unofficial WorldWeatherOnline's API Client",
   "main": "lib/index.js",
   "scripts": {
