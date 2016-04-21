@@ -26,6 +26,21 @@ var client = WWO.createClient({
     locale: 'EN'
 });
 ```
+#### Methods
+Methods available are: 
+
+1. Search API (searchApi)
+2. Local Weather API (localWeatherApi)
+3. Time Zone API (tizeZoneApi)
+4. Ski Weather API (skiWeatherApi)
+5. Marine Weather API (marineWeatherApi)
+6. Historical Weather API (historicalWeatherApi)
+ 
+The examples of all APIs are given below
+
+#### Params
+Params as seen at [WorldWeatherOnline's API Docs](http://developer.worldweatheronline.com/api/) can be passed directly as an object to each of the available functions.
+
 ## Examples
 examples based on usage
 #### Search API
