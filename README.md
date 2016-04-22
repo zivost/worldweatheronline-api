@@ -2,10 +2,11 @@
 [![npm version](https://badge.fury.io/js/worldweatheronline-api.svg)](https://badge.fury.io/js/worldweatheronline-api)
 [![Build Status](https://travis-ci.org/Rohithzr/worldweatheronline-api.svg?branch=master)](https://travis-ci.org/Rohithzr/worldweatheronline-api)
 [![Coverage Status](https://coveralls.io/repos/github/Rohithzr/worldweatheronline-api/badge.svg?branch=master)](https://coveralls.io/github/Rohithzr/worldweatheronline-api?branch=master)
+[![Baikal](https://baikal.io/badges/Rohithzr/worldweatheronline-api)](https://baikal.io/Rohithzr/worldweatheronline-api)
 
 [![NPM](https://nodei.co/npm/worldweatheronline-api.png)](https://nodei.co/npm/worldweatheronline-api/)
 
-un-official client for [WorldWeatherOnline's APIs](http://developer.worldweatheronline.com/api/)
+un-official client for [WorldWeatherOnline's Weather,Local Weather,Time Zone, Marine, Ski and Historical Weather APIs](http://developer.worldweatheronline.com/api/)
 
 ## Installation
 Install using npm:
