@@ -1,7 +1,7 @@
 var WWO = require('../lib/index');
 
 var client = WWO.createClient({
-    key: '9d378416be224717b92172807162004',
+    key: process.env.trial_key || '9d378416be224717b92172807162004',
     responseType: 'json',
     subscription: 'premium',
     locale: 'EN'
